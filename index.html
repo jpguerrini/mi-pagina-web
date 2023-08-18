@@ -3,37 +3,54 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Portafolio Personal</title>
     <link rel="stylesheet" href="styles.css">
-    <title>Ejemplo HTML y CSS</title>
 </head>
 <body>
     <header>
-        <h1>Mi Sitio Web</h1>
+        <img src="foto-de-perfil.jpg" alt="Mi Foto de Perfil">
+        <h1>Juan Pablo Guerrini</h1>
+        <p>Estudiante de Platzi y apsirante a programador</p>
     </header>
     <nav>
         <ul>
-            <li><a href="#">Inicio</a></li>
-            <li><a href="#">Acerca de</a></li>
-            <li><a href="#">Servicios</a></li>
-            <li><a href="#">Contacto</a></li>
+            <li><a href="#sobre-mi">Sobre Mí</a></li>
+            <li><a href="#proyectos">Proyectos</a></li>
+            <li><a href="#habilidades">Habilidades</a></li>
+            <li><a href="#contacto">Contacto</a></li>
         </ul>
     </nav>
     <main>
-        <section>
-            <h2>Acerca de Nosotros</h2>
-            <p>Somos una empresa dedicada a brindar soluciones web.</p>
+        <section id="sobre-mi">
+            <h2>Sobre Mí</h2>
+            <p>Soy un joven Argentino de 19 años que tras dejar dos carreras universitarias por fin estoy haciendo lo que me gusta, ¿Y que me gusta? ME GUSTA PROGRAMAR!!!</p>
         </section>
-        <section>
-            <h2>Nuestros Servicios</h2>
+        <section id="proyectos">
+            <h2>Proyectos Destacados</h2>
+            <div class="proyecto">
+                <h3>Proyecto 1</h3>
+                <p>Descripción del primer proyecto.</p>
+            </div>
+            <div class="proyecto">
+                <h3>Proyecto 2</h3>
+                <p>Descripción del segundo proyecto.</p>
+            </div>
+        </section>
+        <section id="habilidades">
+            <h2>Habilidades</h2>
             <ul>
-                <li>Diseño web</li>
-                <li>Desarrollo de aplicaciones</li>
-                <li>Optimización SEO</li>
+                <li>Diseño web responsive</li>
+                <li>HTML, CSS y JavaScript</li>
+                <li>Experiencia de usuario (UX)</li>
             </ul>
+        </section>
+        <section id="contacto">
+            <h2>Contacto</h2>
+            <p>¡Estoy disponible para colaborar en proyectos emocionantes! Puedes contactarme a través de [tu correo electrónico].</p>
         </section>
     </main>
     <footer>
-        <p>&copy; 2023 Mi Sitio Web. Todos los derechos reservados.</p>
+        <p>&copy; 2023 Mi Portafolio Personal. Todos los derechos reservados.</p>
     </footer>
 </body>
 </html>
