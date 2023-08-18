@@ -11,8 +11,8 @@ body {
 }
 
 header {
-    background-color: #333;
-    color: white;
+    background-color: #4FC0D0;
+    color: black;
     text-align: center;
     padding: 40px 0;
 }
@@ -29,7 +29,7 @@ nav ul {
     padding: 0;
     display: flex;
     justify-content: center;
-    background-color: #444;
+    background-color: #1B6B93;
 }
 
 nav ul li {
@@ -50,8 +50,8 @@ section {
 }
 
 /* Estilos para proyectos */
-.proyecto {
-    border: 1px solid #ddd;
+.formación {
+    border: 1px solid white;
     padding: 10px;
     margin-bottom: 20px;
 }
@@ -63,8 +63,8 @@ section {
 }
 
 footer {
-    background-color: #333;
-    color: white;
+    background-color: #4FC0D0;
+    color: black;
     text-align: center;
-    padding: 10px 0;
+    padding: 41px 0;
 }
