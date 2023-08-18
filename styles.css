@@ -17,13 +17,10 @@ header {
     padding: 40px 0;
 }
 
-/* Estilos para la imagen en la cabecera */
-header img {
-    max-width: 10%;
-    height: auto;
-    display: block;
-    margin: 0 auto;
-    border-radius: 20%;
+.redes-sociales a img {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
 }
 
 nav ul {
@@ -63,11 +60,6 @@ section {
 #habilidades ul {
     list-style: disc;
     padding-left: 20px;
-}
-
-/* Estilos para contacto */
-#contacto p {
-    font-style: italic;
 }
 
 footer {
